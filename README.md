@@ -1,27 +1,11 @@
-name: Generate Snake
+<h1 align="center">Hi there 👋, I'm Duc Minh!</h1>
 
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+### 🐍 My GitHub Contribution Snake
 
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Generate snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ducminnh
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-
-      - name: Deploy
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          build_dir: dist
-          target_branch: output
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ducmninh/ducmninh/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ducmninh/ducmninh/output/github-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/ducmninh/ducmninh/output/github-snake.svg">
+  </picture>
+</div>
