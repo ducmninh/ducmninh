@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐍 Xin chào, mình là Minh (ducmninh)!
+#  Xin chào, mình là Minh (ducmninh)!
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ducmninh/ducmninh/output/github-snake-dark.svg" />
