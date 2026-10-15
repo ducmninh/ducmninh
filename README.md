@@ -16,10 +16,7 @@
 
 ## 👋 Giới thiệu
 
-- 🔭 Đang làm việc với: `Tên dự án`
-- 🌱 Đang học: `Công nghệ bạn đang học`
-- 💬 Hỏi mình về: `Chủ đề bạn rành`
-- 📫 Liên hệ: `email@example.com`
+
 
 ## 🛠️ Công nghệ
 
